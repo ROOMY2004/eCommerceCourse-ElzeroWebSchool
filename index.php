@@ -9,7 +9,7 @@
 		<?php
 			$allItems = getAllFrom('*', 'items', 'where Approve = 1', '', 'Item_ID');
 			foreach ($allItems as $item) {
-				echo '<div class="col-sm-6 col-md-3">';
+				echo '<div class="col-sm-6 col-md-3-endFile">';
 					echo '<div class="thumbnail item-box">';
 						echo '<span class="price-tag">$' . $item['Price'] . '</span>';
 						echo '<img class="img-responsive" src="img.png" alt="" />';
